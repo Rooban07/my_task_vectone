@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from './client/banner';
+import Benefits from './client/benefitComponent';
+import Footer from './client/footer';
+import Header from './client/header';
+import data from './config';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header content={data.header} />
+      <Banner content={data.banner} />
+      <Benefits content={data.benefits} />
+      <Footer content={data.footer} />
     </div>
   );
 }

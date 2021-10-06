@@ -1,20 +1,19 @@
 import React from 'react';
 import '../client/header.css';
 import CallIcon from './uploads/call_icon.svg';
-import Logo from './uploads/logo.svg';
 
-function Header() {
+function Header({ content }) {
   return (
     <div className='header_wrapper'>
       <div class='container'>
         <div class='row'>
           <div class='col-sm-4'>
-            <img src={Logo} />
+            <img src={content.logo} />
           </div>
           <div class='col-sm-4'></div>
           <div class='col-sm-4' style={{ textAlign: 'end' }}>
             <p>
-              <img src={CallIcon} /> 02034440000
+              <img src={CallIcon} /> {content.phone}
             </p>
           </div>
         </div>
