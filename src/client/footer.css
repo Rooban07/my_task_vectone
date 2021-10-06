@@ -1,0 +1,15 @@
+.footer_wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer_wrapper p {
+  color: #9b9b9b;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.5;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.footer_wrapper .footer-block img {
+  margin-left: 5px;
+}

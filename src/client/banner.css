@@ -1,0 +1,30 @@
+.banner_wrapper {
+  background-image: url('../client/uploads/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 210px 0;
+}
+
+.banner_wrapper h1 {
+  font-weight: 700;
+  font-size: 60px;
+  padding: 40px 0;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  padding: 20px 56px !important;
+  background-color: #7c24ef !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  border: 3px solid #1660ea !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #1660ea !important;
+  margin-left: 20px !important;
+  padding: 20px 56px !important;
+}

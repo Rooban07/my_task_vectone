@@ -19,18 +19,6 @@ let benefit_details = [
   },
 ];
 
-class Benefits extends React.Component {
-  render() {
-    this.state = {
-      benefit: benefit_details,
-    };
-    const { benefit } = this.state;
-    return (
-      <>
-        <BenefitComponent benefitContent={benefit} />
-      </>
-    );
-  }
-}
+const Benefits = () => <BenefitComponent benefitContent={benefit_details} />;
 
 export default Benefits;
